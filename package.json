@@ -1,33 +1,43 @@
 {
-    "name": "heroku-apollo-graphql",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "compile": "tsc",
-        "dev": "nodemon src/index.ts",
-        "start": "npm run compile && node ./dist/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/kingsleyramos/Heroku-Apollo-GraphQL.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/kingsleyramos/Heroku-Apollo-GraphQL/issues"
-    },
-    "homepage": "https://github.com/kingsleyramos/Heroku-Apollo-GraphQL#readme",
-    "type": "module",
-    "dependencies": {
-        "@apollo/server": "^4.7.1",
-        "graphql": "^16.6.0",
-        "typescript": "^5.0.4"
-    },
-    "devDependencies": {
-        "@types/node": "^20.2.5",
-        "nodemon": "^2.0.22",
-        "ts-node": "^10.9.1"
-    }
+  "name": "heroku-apollo-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingsleyramos/Heroku-Apollo-GraphQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingsleyramos/Heroku-Apollo-GraphQL/issues"
+  },
+  "homepage": "https://github.com/kingsleyramos/Heroku-Apollo-GraphQL#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "graphql": "^16.6.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3"
+  }
 }
