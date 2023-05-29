@@ -1,5 +1,5 @@
 {
-  "name": "heroku-apollo-graphql",
+  "name": " apollo-server4-graphql-typescript-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kingsleyramos/Heroku-Apollo-GraphQL.git"
+    "url": "git+https://github.com/kingsleyramos/ApolloServer4-GraphQL-Typescript-Boilerplate.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kingsley Ramos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kingsleyramos/Heroku-Apollo-GraphQL/issues"
+    "url": "https://github.com/kingsleyramos/ApolloServer4-GraphQL-Typescript-Boilerplate/issues"
   },
-  "homepage": "https://github.com/kingsleyramos/Heroku-Apollo-GraphQL#readme",
+  "homepage": "https://github.com/kingsleyramos/ApolloServer4-GraphQL-Typescript-Boilerplate#readme",
   "type": "module",
   "dependencies": {
     "@apollo/server": "^4.7.1",
